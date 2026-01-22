@@ -66,7 +66,6 @@ The architecture is divided into three layers:
    - Check security group rules
 
 
-Md
 ## Security Best Practices
 
 - Web Tier only accessible via Internet-facing ALB
