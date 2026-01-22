@@ -82,3 +82,13 @@ The architecture is divided into three layers:
 - Real-world AWS services: VPC, EC2, ALB, Auto Scaling, RDS
 - Professional GitHub repo layout
 - Easy to explain in interviews
+
+
+## How to Run
+
+## How to Run
+
+1. Clone the repository:https://github.com/Premkumar734/aws-3tair-architecture-project.git
+2. Review the deployment steps in docs/deployment-steps.md
+3. Use AWS Console or Terraform to create resources
+4. Verify the Web Tier via Application Load Balancer DNS
