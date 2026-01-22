@@ -1,5 +1,5 @@
 ## Architecture Diagram
-![AWS 3-Tier Architecture](aws-3tier-architecture.jpg.jpeg)
+![AWS 3-Tier Architecture](aws-3tier-architecture.jpg)
 
 
 ## Project Overview
