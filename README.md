@@ -73,3 +73,12 @@ The architecture is divided into three layers:
 - Security Groups with least privilege rules
 - NAT Gateway for secure outbound access from private instances
 - RDS Multi-AZ for high availability and disaster recovery
+
+
+## Project Highlights
+
+- Highly Available and Scalable AWS 3-Tier Architecture
+- Proper folder structure for scripts, documentation, diagrams
+- Real-world AWS services: VPC, EC2, ALB, Auto Scaling, RDS
+- Professional GitHub repo layout
+- Easy to explain in interviews
