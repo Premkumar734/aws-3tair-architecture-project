@@ -1,2 +1,2 @@
 ## Architecture Diagram
-![AWS 3-Tier Architecture](architecture-diagram/aws-3tier-architecture.png)
+![AWS 3-Tier Architecture](aws-3tier-architecture.jpg.jpeg)
