@@ -36,3 +36,32 @@ The architecture is divided into three layers:
 - Amazon RDS
 - IAM
 - Security Groups
+
+
+## Deployment Steps
+
+1. *Create VPC and Subnets*
+   - Public subnets for Web Tier
+   - Private subnets for App and DB Tier
+
+2. *Configure Routing*
+   - Attach Internet Gateway for public subnets
+   - Add NAT Gateway for private subnets
+
+3. *Launch Web Tier EC2*
+   - Use user-data script for setup
+   - Place in Auto Scaling Group behind ALB
+
+4. *Launch Application Tier EC2*
+   - Private subnets only
+   - Internal ALB for traffic routing
+
+5. *Deploy Database Tier*
+   - Multi-AZ RDS instance
+   - Private subnets only
+   - Security Group restricted to App Tier
+
+6. *Verify Deployment*
+   - Test Web access via ALB
+   - Test App connectivity to DB
+   - Check security group rules
