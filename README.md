@@ -36,8 +36,7 @@ The architecture is divided into three layers:
 - Amazon RDS
 - IAM
 - Security Groups
-
-
+  
 ## Deployment Steps
 
 1. *Create VPC and Subnets*
