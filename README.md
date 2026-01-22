@@ -64,3 +64,13 @@ The architecture is divided into three layers:
    - Test Web access via ALB
    - Test App connectivity to DB
    - Check security group rules
+
+
+Md
+## Security Best Practices
+
+- Web Tier only accessible via Internet-facing ALB
+- Application and Database tiers in private subnets
+- Security Groups with least privilege rules
+- NAT Gateway for secure outbound access from private instances
+- RDS Multi-AZ for high availability and disaster recovery
