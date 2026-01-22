@@ -1,2 +1,2 @@
-# aws-3tair-architecture-project
-Highly available 3-Tair web application architecture on AWS
+## Architecture Diagram
+![AWS 3-Tier Architecture](architecture-diagram/aws-3tier-architecture.png)
